@@ -11,10 +11,11 @@ public class Driver {
         int wins=0;
         int losses=0;
 
+
         while(cont.charAt(0)=='y') {
             player = new StraightShooter(6);
             computer = new StraightShooter(6);
-            System.out.println("Welcome to StraightShooter\nFirst to 100 wins");
+            System.out.println("Welcome to StraightShooter\nFirst to 100 wins!");
             while (player.getTotalScore() < 100 && computer.getTotalScore() < 100) {
                 System.out.println("\nPress enter to roll");
                 console.nextLine();
